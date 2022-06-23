@@ -17,7 +17,7 @@ const Article = () => {
               living how they wish, and opening wide the creative 
               space for a whole generation to thrive.
             </p>
-            <Button />
+            <Button>Discover more</Button>
           </div>
           <div className='vline'></div>
           <h3>They're defying the 

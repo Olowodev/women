@@ -15,7 +15,7 @@ const LookBook = () => {
           <img src={logo} />
           <h3>you darling</h3>
         </div>
-        <Button />
+        <Button>Check out our Lookbook</Button>
       </div>
       <div className='bookSide'>
         <div className='vline'></div>

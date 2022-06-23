@@ -17,7 +17,7 @@ const BlogArticle = () => {
           <img />
         </div>
         <div className='blogBottom'>
-          <Button />
+          <Button>Discover more</Button>
           <div className='vline'></div>
           <div>
             <p>People often cite the 1950s as a tme when curviness was in, but

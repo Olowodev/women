@@ -21,7 +21,7 @@ const Collections = () => {
             <CollectionCard data={coll} key={index} />
           ))}
         </div>
-        <Button />
+        <Button>Browse Collections</Button>
       </div>
     </div>
   )
