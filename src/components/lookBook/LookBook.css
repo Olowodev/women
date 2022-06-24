@@ -1,0 +1,64 @@
+.lookBook {
+    background: url('../../images/lookBookBg.png') no-repeat center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.bookCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+    gap: 100px;
+}
+
+.bookTitle {
+    font-size: 180px;
+}
+
+.bookTitle h1:first-child {
+    color: #be6c42;
+    font-weight: normal;
+}
+
+.bookTitle h1:last-child {
+    line-height: 100px;
+    font-weight: normal;
+    margin-left: 25%;
+}
+
+.bookSub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 50px;
+    gap: 20px;
+}
+
+.bookSub h3 {
+    font-weight: normal;
+}
+
+.bookButton {
+    margin-top: 100px;
+    transform: translateY(40px);
+}
+
+.bookSide {
+    position: absolute;
+    display: flex;
+    right: 50px;
+    top: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.sideContent p {
+    max-width: 220px;
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import {FaPlay, FaPause} from 'react-icons/fa'
+import './Quote.css'
 
 const Quote = () => {
 
@@ -18,7 +19,7 @@ const Quote = () => {
           beauty in it.
         </h3>
         <p>Alexander McQueen; designer</p>
-        {play ? <FaPause onClick={togglePlay} /> : <FaPlay onClick={togglePlay} />}
+        {play ? <FaPause style={{fontSize: "50px", cursor: "pointer"}} onClick={togglePlay} /> : <FaPlay style={{fontSize: "50px", cursor: "pointer"}} onClick={togglePlay} />}
       </div>
     </div>
   )

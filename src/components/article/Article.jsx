@@ -1,12 +1,13 @@
 import React from 'react'
 import Button from '../button/Button'
+import './Article.css'
 
 const Article = () => {
   return (
     <div className='article'>
       <div className='articleCont'>
         <p className='category'>CRAFTSMANSHIP</p>
-        <h1>Ral women fashion state, insidious whispering of male</h1>
+        <h1>Real women fashion state, insidious whispering of male</h1>
         <div className='articleBottom'>
           <div className='bottomLeft'>
             <p>Stll, what we never reckoned with then was the 

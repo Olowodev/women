@@ -3,6 +3,7 @@ import {collection} from '../../data'
 import Button from '../button/Button'
 import CollectionCard from '../collectionCard/CollectionCard'
 import logo from '../../images/FOR_logo.png'
+import './Collections.css'
 
 const Collections = () => {
   return (

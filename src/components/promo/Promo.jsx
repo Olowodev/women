@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../images/badge1.png'
+import './Promo.css'
 
 const Promo = () => {
   return (

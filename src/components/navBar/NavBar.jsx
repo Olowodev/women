@@ -1,8 +1,10 @@
 import React from 'react'
+import './NavBar.css'
 
 const NavBar = () => {
   return (
     <div className='nav'>
+      <div className="navCont">
       <div className='navLeft'>
         <p>FOR.</p>
       </div>
@@ -19,6 +21,7 @@ const NavBar = () => {
             <div className='navMenuLine'></div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   )

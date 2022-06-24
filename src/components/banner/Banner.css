@@ -1,0 +1,27 @@
+.banner {
+    background-color: #be6c42;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.bannerContent {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    color: white;
+    animation: scrolling 12s linear infinite;
+}
+
+.bannerContent p {
+    flex-shrink: 0;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
+}

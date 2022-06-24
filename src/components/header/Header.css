@@ -1,0 +1,76 @@
+.header {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mainHeader {
+    margin: 40px 67px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainHeader > h1:first-child {
+    font-size: 270px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -14%;
+    top: 40%;
+    font-weight: normal;
+    color: #be6c42;
+    opacity: 9%;
+}
+
+.centerHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.centerHead img:first-child {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    
+}
+
+.centerHead  h1:nth-child(2) {
+    font-size: 100px;
+    font-weight: normal;
+    color: #f7e7ce;
+}
+
+.centerHead  > h1:nth-child(3) {
+    font-size: 296px;
+    line-height: 140px;
+    font-weight: normal;
+    color: #be6c42;
+    letter-spacing: 0.01em;
+}
+
+.centerHead p {
+    align-self: flex-start;
+    font-size: 18px;
+    margin-top: 55px;
+}
+
+.centerHead img:last-child {
+    position: absolute;
+    top: 30%;
+    width: 70%;
+    height: auto;
+}
+
+.spinner {
+    position: absolute;
+    right: -50px;
+    top: 0;
+}
+
+.spinner img {
+    width: 80%;
+    height: auto;
+}

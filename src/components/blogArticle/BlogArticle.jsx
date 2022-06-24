@@ -1,4 +1,7 @@
 import React from 'react'
+import Button from '../button/Button'
+import './BlogArticle.css'
+import yansh from '../../images/yansh.png'
 
 const BlogArticle = () => {
   return (
@@ -10,16 +13,18 @@ const BlogArticle = () => {
         <div className='blogContent'>
           <h1>Big</h1>
           <h1>beauty</h1>
-          <div>
-            <p>Why Does the Beauty Industry</p>
-            <p>Ignore Curvy Models?</p>
-          </div>
-          <img />
+          <img src={yansh} />
         </div>
         <div className='blogBottom'>
-          <Button>Discover more</Button>
+          <div className='blogBottomLeft'>
+            <div>
+              <p>Why Does the Beauty Industry</p>
+              <p>Ignore Curvy Models?</p>
+            </div>
+            <Button>Discover more</Button>
+          </div>
           <div className='vline'></div>
-          <div>
+          <div className='blogBottomRight'>
             <p>People often cite the 1950s as a tme when curviness was in, but
               that's not entirely true, said Elizabeth Wissinger, author of "This
               Year's Model" and a proessor of fashion studies at the City University

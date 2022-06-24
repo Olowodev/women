@@ -3,6 +3,7 @@ import NavBar from '../navBar/NavBar'
 import header from '../../images/header.png'
 import badge from '../../images/badge.png'
 import logo from '../../images/FOR_logo.png'
+import './Header.css'
 
 const Header = () => {
   return (
