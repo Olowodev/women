@@ -3,16 +3,16 @@ import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <div className='nav'>
+    <div className='container nav'>
       <div className="navCont">
       <div className='navLeft'>
         <p>FOR.</p>
       </div>
       <div className='navRight'>
         <div className='navLinks'>
-          <p>Collection</p>
-          <p>Lookbook</p>
-          <p>About</p>
+          <a href="#articles"><p>Articles</p></a>
+          <a href="#lookbook"><p>Lookbook</p></a>
+          <a href="#collections"><p>Collection</p></a>
         </div>
         <div className='navMenu'>
           <div className='navMenuIcon'>

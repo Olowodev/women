@@ -7,7 +7,7 @@ import './Collections.css'
 
 const Collections = () => {
   return (
-    <div className='collections'>
+    <div id="collections" className='container collections'>
       <div className='colCont'>
         <img src={logo} />
         <h1>future</h1>

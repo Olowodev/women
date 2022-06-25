@@ -11,7 +11,7 @@ const Quote = () => {
   }
 
   return (
-    <div className='quote'>
+    <div className='container quote'>
       <div className='quoteCont'>
         <h3>I think there is beauty in everything.
           What 'normal' people perceive as 

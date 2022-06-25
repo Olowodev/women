@@ -4,7 +4,7 @@ import './Promo.css'
 
 const Promo = () => {
   return (
-    <div className='promo'>
+    <div className='container promo'>
       <div className='promoCont'>
         <img src={logo} />
         <p>SHAPES TRADED BETWEEN SLOUCHY AND BLOUSON AND UTTERLY SLEEK, WITH ONE 

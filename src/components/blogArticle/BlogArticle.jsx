@@ -1,19 +1,68 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import Button from '../button/Button'
 import './BlogArticle.css'
 import yansh from '../../images/yansh.png'
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 
 const BlogArticle = () => {
+
+  gsap.registerPlugin(ScrollTrigger);
+  const ref = useRef(null);
+  const ref2 = useRef(null);
+  const ref3 = useRef(null);
+  const ref4 = useRef(null);
+
+
+  useEffect(() => {
+    const section = ref.current;
+    const title = ref2.current;
+    const content = ref3.current;
+    const img = ref4.current;
+
+    /*gsap.to(title, {
+      yPercent: 10,
+      ease: "none",
+      scrollTrigger: {
+        trigger: section,
+        scrub: true
+      }
+    })
+
+    gsap.to(content, {
+      yPercent: 10,
+      ease: "none",
+      scrollTrigger: {
+        trigger: section,
+        scrub: true
+      }
+    })*/
+
+    gsap.fromTo(img, {
+      yPercent: 0
+    },
+     {
+      yPercent: -20,
+      ease: "none",
+      scrollTrigger: {
+        trigger: section,
+        scrub: true
+      }
+    })
+  }, [])
+
   return (
     <div className='blogArticle'>
-      <div className="blogCont">
-        <div className='blogCategory'>
+      <div ref={ref} className="blogCont">
+        <div ref={ref2} className='blogCategory'>
           <p>BLOG ARTICLE</p>
         </div>
         <div className='blogContent'>
-          <h1>Big</h1>
-          <h1>beauty</h1>
-          <img src={yansh} />
+          <div ref={ref3}>
+            <h1>Big</h1>
+            <h1>beauty</h1>
+          </div>
+          <img ref={ref4} src={yansh} />
         </div>
         <div className='blogBottom'>
           <div className='blogBottomLeft'>

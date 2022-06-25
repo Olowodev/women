@@ -42,9 +42,32 @@
     align-items: flex-end;
 }
 
+.navLinks a {
+    cursor: pointer;
+    position: relative;
+}
+
+.navLinks p::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s;
+    height: 2px;
+    width: 100%;
+    background-color: #713c25;
+}
+
+.navLinks a:hover p::before {
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
 .navMenuLine {
     background-color: #713c25;
     height: 2px;
+    transform-origin: left;
 }
 
 .navMenuLine:first-child {

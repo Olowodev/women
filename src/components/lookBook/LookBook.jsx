@@ -6,7 +6,7 @@ import './LookBook.css'
 
 const LookBook = () => {
   return (
-    <div className='lookBook'>
+    <div id="lookbook" className='container lookBook'>
       <div className='bookCont'>
         <div className='bookTitle'>
           <h1>Look</h1>  
