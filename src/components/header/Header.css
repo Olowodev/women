@@ -1,6 +1,7 @@
 .header {
     height: 100vh;
     overflow: hidden;
+    
 }
 
 .mainHeader {
@@ -60,7 +61,7 @@
 .centerHead img:last-child {
     position: absolute;
     top: 30%;
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 

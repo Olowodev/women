@@ -1,0 +1,28 @@
+.collectionCard {
+    background-color: #f7e7ce;
+    position: relative;
+
+}
+
+.cardCont {
+    margin: 0 0 60px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cardCont > img {
+    width: 250px;
+    height: auto;
+}
+
+.cardCont > h1:nth-child(2) {
+    position: absolute;
+    transform: rotate(270deg);
+    font-weight: normal;
+    font-size: 100px;
+    color: #be6c42;
+    opacity: 30%;
+    top: 100px;
+    left: 0;
+}

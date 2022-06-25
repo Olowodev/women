@@ -17,12 +17,14 @@ const Collections = () => {
           corporations, the appeal of small labels with big 
           visions with only grow.
         </p>
-        <div>
+        <div className='cardsCont'>
           {collection.map((coll, index) => (
-            <CollectionCard data={coll} key={index} />
+            <CollectionCard measure={index} data={coll} key={index} />
           ))}
         </div>
-        <Button>Browse Collections</Button>
+        <div className='colButton'>
+          <Button>Browse Collections</Button>
+        </div>
       </div>
     </div>
   )

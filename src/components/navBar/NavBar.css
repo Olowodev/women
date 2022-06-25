@@ -1,7 +1,12 @@
 .navCont {
     display: flex;
     justify-content: space-between;
-    padding: 0 67px;
+    margin: 0 67px;
+    
+}
+
+.navLeftCont {
+    
 }
 
 .navLeft {
@@ -14,6 +19,7 @@
     border-bottom-right-radius: 30px;
     font-size: 28px;
     font-weight: bolder;
+    
 }
 
 .navRight {

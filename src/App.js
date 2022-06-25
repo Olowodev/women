@@ -1,4 +1,5 @@
 import './App.css';
+import NavBar from './components/navBar/NavBar'
 import Header from './components/header/Header'
 import Banner from './components/banner/Banner'
 import Article from './components/article/Article'
@@ -13,6 +14,7 @@ import Footer from './components/footer/Footer'
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Header />
       <Banner />
       <Article />

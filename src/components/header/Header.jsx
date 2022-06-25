@@ -8,7 +8,6 @@ import './Header.css'
 const Header = () => {
   return (
     <div className='header'>
-      <NavBar />
       <div className='mainHeader'>
         <h1>2021</h1>
         <div className='centerHead'>

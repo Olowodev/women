@@ -1,0 +1,51 @@
+.colCont {
+    padding: 200px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.colCont > img {
+    position: absolute;
+    top: 12%;
+    left: 26%;
+}
+
+.colCont > h1:nth-child(2) {
+    color: #f7e7ce;
+    font-size: 100px;
+    font-weight: normal;
+}
+
+.colCont h1:nth-child(3) {
+    color: #be6c42;
+    font-size: 300px;
+    font-weight: normal;
+    line-height: 150px;
+}
+
+.colCont p:nth-child(4) {
+    align-self: flex-end;
+    margin-top: 60px;
+    margin-right: 10%;
+}
+
+.colCont p:nth-child(5) {
+    align-self: flex-start;
+    max-width: 550px;
+    margin-left: 10%;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.cardsCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.colButton {
+    align-self: flex-end;
+}
