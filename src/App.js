@@ -9,6 +9,7 @@ import LookBook from './components/lookBook/LookBook'
 import Collections from './components/collections/Collections'
 import Promo from './components/promo/Promo'
 import Footer from './components/footer/Footer'
+import ScrollToTop from './components/scrollToTop/ScrollToTop';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Collections />
       <Promo />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

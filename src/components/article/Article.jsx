@@ -20,7 +20,7 @@ const Article = () => {
       yPercent: 0
     },
      {
-      yPercent: -10,
+      yPercent: -20,
       ease: "none",
       scrollTrigger: {
         trigger: cont,
@@ -28,7 +28,7 @@ const Article = () => {
       }
     })
 
-    gsap.fromTo(section, {
+    /*gsap.fromTo(section, {
       backgroundPosition: () => `50% ${-window.innerHeight * getRatio(section)}px`
     }, {
       backgroundPosition: () => `50% ${window.innerHeight * (1 - getRatio(section))}px`,
@@ -40,7 +40,7 @@ const Article = () => {
         scrub: true,
         invalidateOnRefresh: true
       }
-    })
+    })*/
   }, [])
   return (
     <div ref={ref} id="articles" className='article'>

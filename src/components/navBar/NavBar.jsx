@@ -14,13 +14,13 @@ const NavBar = () => {
           <a href="#lookbook"><p>Lookbook</p></a>
           <a href="#collections"><p>Collection</p></a>
         </div>
-        <div className='navMenu'>
+        {/*<div className='navMenu'>
           <div className='navMenuIcon'>
             <div className='navMenuLine'></div>
             <div className='navMenuLine'></div>
             <div className='navMenuLine'></div>
           </div>
-        </div>
+  </div>*/}
       </div>
       </div>
     </div>

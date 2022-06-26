@@ -16,9 +16,9 @@ const Footer = () => {
             <p>FOLLLOW US ON SOCIAL:</p>
             <div className='hline'></div>
             <div className='socials'>
-              <p>Instagram</p>
-              <p>Pinterest</p>
-              <p>Facebook</p>
+              <a target='_blank' href='https://www.instagram.com/olowoo_a'><p>Instagram</p></a>
+              <a target='_blank' href='https://www.linkedin.com/in/adebayo-olowofoyeku-0930a3230'><p>LinkedIn</p></a>
+              <a target='_blank' href='https://www.github.com/Olowodev'><p>Github</p></a>
             </div>
           </div>
           <div className='footRight'>

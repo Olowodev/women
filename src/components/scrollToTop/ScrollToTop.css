@@ -1,0 +1,15 @@
+.scrollTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100;
+    background-color: transparent;
+    color: #713c25;
+    border-radius: 50%;
+    border: 2px solid #713c25;
+    padding: 10px;
+    cursor: pointer;
+}

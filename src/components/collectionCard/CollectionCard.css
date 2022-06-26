@@ -4,6 +4,12 @@
 
 }
 
+.collectionCard:hover {
+    -webkit-box-shadow: -19px 19px 0px 5px rgba(101,59,41,0.13); 
+box-shadow: -19px 19px 0px 5px rgba(101,59,41,0.13);
+transform: translate(10px, -10px)
+}
+
 .cardCont {
     margin: 0 0 60px 100px;
     display: flex;
